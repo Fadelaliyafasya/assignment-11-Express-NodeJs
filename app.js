@@ -21,7 +21,7 @@ app.use("/", (req, res) => {
   res.send("<h1>Not Found</h1>");
 });
 
-// Menjalankan server HTTP
+// Menjalankan server
 app.listen(port, host, () => {
   console.log(`Server running at http://${host}:${port}`);
 });
